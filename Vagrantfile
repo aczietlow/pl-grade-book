@@ -18,6 +18,6 @@ Vagrant.configure("2") do |config|
   config.vm.provision :shell, inline: <<SCRIPT
   set -ex
   /opt/phantomjs --webdriver=8643 &> /dev/null &
-  su vagrant -c 'cd #{path} && composer install;
+  su vagrant -c 'cd #{path} && composer install;'
 SCRIPT
 end
