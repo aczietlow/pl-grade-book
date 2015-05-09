@@ -1,12 +1,12 @@
 {
   "name": "zietlow/scylla",
   "license": "GPLv2",
-  "description": "Playground for better understanding the 'dargons' hiding under the water and how to test for them.",
+  "description": "Power leveling project to better learn fundamental OOP concepts and system testing.",
 
   "minimum-stability": "dev",
   "require": {},
   "require-dev": {
-    "behat/behat": "3.0.*@dev",
+    "behat/behat": "3.0.*@dev"
   },
   "config": {
     "bin-dir": "bin",
